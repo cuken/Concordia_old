@@ -69,14 +69,14 @@ namespace Concordia
             .AddService<SettingsService>()
             .AddService<HttpService>()
 
-            .AddModule<AdminModule>("Admin", ModuleFilter.ServerWhitelist)
-            .AddModule<ColorsModule>("Colors", ModuleFilter.ServerWhitelist)
-            .AddModule<FeedModule>("Feeds", ModuleFilter.ServerWhitelist)
-            .AddModule<GithubModule>("Repos", ModuleFilter.ServerWhitelist)
+            .AddModule<AdminModule>("Admin", ModuleFilter.None)
+            .AddModule<ColorsModule>("Colors", ModuleFilter.None)
+            .AddModule<FeedModule>("Feeds", ModuleFilter.None)
+            .AddModule<GithubModule>("Repos", ModuleFilter.None)
             .AddModule<ModulesModule>("Modules", ModuleFilter.None)
             .AddModule<PublicModule>("Public", ModuleFilter.None)
-            .AddModule<TwitchModule>("Twitch", ModuleFilter.ServerWhitelist)
-            .AddModule<StatusModule>("Status", ModuleFilter.ServerWhitelist);
+            .AddModule<TwitchModule>("Twitch", ModuleFilter.None)
+            .AddModule<StatusModule>("Status", ModuleFilter.None);
             //.AddModule(new ExecuteModule(env, exporter), "Execute", ModuleFilter.ServerWhitelist);         
             
               
