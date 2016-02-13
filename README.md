@@ -10,6 +10,7 @@ Concordia is a *bot*. Hosted by whoever runs the Concordia client, it will join 
 ### Concordia's Feature List
 Right now Concordia can do the following:
 * Initial recreate of Discord.net Demo Bot
+* Standard modules loaded.
 
 Some of the features we plan on adding are:
 * Music support
