@@ -46,6 +46,16 @@ namespace Concordia
         private UserSettings _users = new UserSettings();
         public static UserSettings Users => _instance._users;
 
+        //API
+        public class APISettings
+        {
+            [JsonProperty("Mashape")]
+            public string Mashape;
+        }
+        [JsonProperty("api")]
+        private APISettings _api = new APISettings();
+        public static APISettings Api => _instance._api;
+
         //Github
         public class GithubSettings
         {

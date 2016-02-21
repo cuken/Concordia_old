@@ -85,6 +85,7 @@
   <ItemGroup>
     <Compile Include="Extensions.cs" />
     <Compile Include="GlobalSettings.cs" />
+    <Compile Include="Helpers\SearchHelper.cs" />
     <Compile Include="Modules\Admin\AdminModule.cs" />
     <Compile Include="Modules\Colors\ColorsModule.cs" />
     <Compile Include="Modules\Execute\ExecuteModule.cs" />
@@ -94,6 +95,7 @@
     <Compile Include="Modules\Github\Settings.cs" />
     <Compile Include="Modules\Modules\ModulesModule.cs" />
     <Compile Include="Modules\Public\PublicModule..cs" />
+    <Compile Include="Modules\Search\SearchModule.cs" />
     <Compile Include="Modules\Status\Settings.cs" />
     <Compile Include="Modules\Status\StatusModule.cs" />
     <Compile Include="Modules\Twitch\Settings.cs" />

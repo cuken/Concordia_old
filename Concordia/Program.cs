@@ -50,7 +50,7 @@ namespace Concordia
             .UsingCommands(x =>
             {
                 x.AllowMentionPrefix = true;
-                x.PrefixChar = '`';                
+                x.PrefixChar = '!';                
                 x.HelpMode = HelpMode.Public;
                 x.ExecuteHandler = OnCommandExecuted;
                 x.ErrorHandler = OnCommandError;
@@ -76,7 +76,8 @@ namespace Concordia
             .AddModule<ModulesModule>("Modules", ModuleFilter.None)
             .AddModule<PublicModule>("Public", ModuleFilter.None)
             .AddModule<TwitchModule>("Twitch", ModuleFilter.None)
-            .AddModule<StatusModule>("Status", ModuleFilter.None);
+            .AddModule<StatusModule>("Status", ModuleFilter.None)
+            .AddModule<SearchModule>("Search", ModuleFilter.None);
             //.AddModule(new ExecuteModule(env, exporter), "Execute", ModuleFilter.ServerWhitelist);         
             
               
