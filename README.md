@@ -13,9 +13,9 @@ Right now Concordia can do the following:
 * Standard modules loaded.
 
 ##Todo List
-- [] Music support
-- [] Additional Modules
-- [] Expand Search Module
+- [ ] Music support
+- [ ] Additional Modules
+- [ ] Expand Search Module
 - [x] Add UrbanDictionary support
 - [x] Add Hashtag lookup support
 - [x] Use latest Discord.Net lib version
