@@ -12,9 +12,13 @@ Right now Concordia can do the following:
 * Initial recreate of Discord.net Demo Bot
 * Standard modules loaded.
 
-Some of the features we plan on adding are:
-* Music support
-* Channel Administration
+##Todo List
+- [] Music support
+- [] Additional Modules
+- [] Expand Search Module
+- [x] Add UrbanDictionary support
+- [x] Add Hashtag lookup support
+- [x] Use latest Discord.Net lib version
 
 Please check back often for updates!
 
